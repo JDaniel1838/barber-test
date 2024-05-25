@@ -1,0 +1,17 @@
+{
+  "name": "test-barber",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "build-styles": "npx tailwindcss -i ./src/styles/global.css -o ./src/styles/output.css --watch"
+  },
+  "dependencies": {
+    "astro": "^4.8.7",
+    "tailwindcss": "^3.4.3"
+  }
+}
